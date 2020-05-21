@@ -1,0 +1,21 @@
+{
+  "name": "pos-d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/assets/css/style.css",
+    "build:pcss": "postcss dist/assets/css/style.css -o dist/assets/css/build/twbuild.css",
+    "watch": "watch 'npm run build:pcss' dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "tailwindcss": "^1.4.6",
+    "watch": "^1.0.2"
+  }
+}

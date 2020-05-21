@@ -1,0 +1,9 @@
+.topstrip {border-top: 12px solid #b6ac75;border-bottom: 7px solid #272c30;}
+.box-shadow {box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.08);}
+.box-shadow-md {box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.09);}
+.bg-grey-200 {background-color: #f9f9f9;}
+.list-style-disc {list-style: disc;}
+span.text-black {color: #000;}
+@media only screen and (max-width:767px){
+    .list-inside {list-style-position: inside !important;}
+}
